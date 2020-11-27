@@ -21,11 +21,11 @@ The proposed dataset is collected from open source platform [Kaggle](https://www
 
 Links:
 
-https://www.kaggle.com/mathurinache/world-happiness-report
-https://www.kaggle.com/imdevskp/corona-virus-report
-https://www.worldometers.info/coronavirus/
-https://www.worldometers.info/world-population/population-by-country/
-https://en.wikipedia.org/wiki/COVID-19_pandemic_by_country_and_territory
+* https://www.kaggle.com/mathurinache/world-happiness-report
+* https://www.kaggle.com/imdevskp/corona-virus-report
+* https://www.worldometers.info/coronavirus/
+* https://www.worldometers.info/world-population/population-by-country/
+* https://en.wikipedia.org/wiki/COVID-19_pandemic_by_country_and_territory
 
 
 Editors:
