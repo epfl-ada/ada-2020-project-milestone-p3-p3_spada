@@ -4,7 +4,7 @@
 
 In the summer of 2010, in a much anticipated decision, NBA all-star Lebron James announced to the world that he would be taking his talents to South Beach to join the Miami Heat. This makes us question - is Miami, Florida really the best place for one to take their talents to? In this report, we analyze the World Happiness Report dataset to determine the top destinations around the world in terms of overall happiness. The happiness scores utilize data from the Gallup World Poll which collects answers in a Candril ladder survey format. Respondents are asked to think of a ladder with the best possible life for them being a 10, and the worst being a 0 and to rate their current lives on such scale. The dataset consists of over 150 countries from the years 2015 to 2020, consisting of features such as life expectancy, economic product, corruption and much more. While our travel decisions may not be as complicated as Lebron James’, we hope to analyze the dataset to effectively assess the past, current and future well-being of nations around the world.
 
-## Research questions
+## Research Questions
 
 * What factors influence the happiness score?
 * Which factors are considered highly significant?
@@ -66,6 +66,13 @@ Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds
 * We create a dummy variable for treatment and control groups. Where countries that have a GDP per capita greater than $ X are assigned 1, and 0 otherwise.
 * Calculate propensity score for each group and apply matching.
 
+<p style="text-decoration:underline"> K-Means: </p>
+
+* We may use K-means to cluster unlabelled data to determine if countries of similar features (e.g. GDP and education if two dimensional) are within the same continent (e.g. numer of clusters = 7 continents)
+* First we create a dataframe with the variables on which we want to cluster (e.g. health, corruption, GDP)
+* TSNE to visualize the cluster
+
+
 ## Timeline
 
 <table>
@@ -125,5 +132,5 @@ Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds
 1. Is this project proposal adequate in terms of technical depth and breadth related to the course?
 2. Is our dataset sufficient?
 3. Does it make sense to potentially compare it with a COVID dataset to determine whether the virus had an impact on country happiness for 2020?
-4. Is it ok if we add more datasets in the future?
+4. Does what we're trying to achieve with K-means make sense?
 5. Is the matching method correct by assigning treatment as countries that are rich (GDP per capita greater than $ X)?
