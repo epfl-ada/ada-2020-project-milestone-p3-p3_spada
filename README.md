@@ -20,6 +20,7 @@ In the summer of 2010, in a much anticipated decision, NBA all-star Lebron James
 The proposed dataset is collected from open source platform [Kaggle](https://www.kaggle.com/mathurinache/world-happiness-report). The link, editors and citation can all be found below. The dataset consists of over 150 countries with roughly 10 - 20 features depending on the year of interest. Some countries are not represented in certain years. For example, from 2015 to 2016 we observe 159 to 156 rows in the dataset, respectively. Furthermore, pre-processing the data is necessary to address entries of “N/A” or 0. Similar analysis will be performed for the [COVID dataset](https://www.kaggle.com/imdevskp/corona-virus-report) per country. Both datasets are in .csv format and thus easily accessible using pandas. Finally, data for the total population to compute the number of Coronavirus cases based on the number of people for each country. It will be obtained performing web scraping from one of the sources on [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic_by_country_and_territory) or [Worldometers](https://www.worldometers.info/world-population/population-by-country/).
 
 Link:
+
 https://www.kaggle.com/mathurinache/world-happiness-report
 https://www.kaggle.com/imdevskp/corona-virus-report
 https://www.worldometers.info/coronavirus/
@@ -99,7 +100,7 @@ Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds
   </tr>
 </table>
 
-Organization
+## Organization
 
 - [ ] Data Collection and scrapping
 - [ ] Data Processing
